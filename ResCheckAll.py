@@ -9,12 +9,13 @@ groups = [
     {# groupe 1  
         "urls": [
             "https://trouverunlogement.lescrous.fr/tools/36/search?bounds=6.1237188_48.6773463_6.1969256_48.6426683",
-            "https://trouverunlogement.lescrous.fr/tools/36/search?bounds=0.1362825_48.0358733_0.2550938_47.927977"
+            "https://trouverunlogement.lescrous.fr/tools/36/search?bounds=0.1362825_48.0358733_0.2550938_47.927977",
+            "https://trouverunlogement.lescrous.fr/tools/36/search"
             
               # link to the CROUS residence in France, Nancy 54500
             # Add more URLs for this group
         ],
-        "keywords": ["Vaurouzé","SAURUPT",],  # Keywords for this group, CHARMOIS is a CROUS residence that if available, can be found in the link above
+        "keywords": ["Vaurouzé","SAURUPT","le mans","saurupt","mans"],  # Keywords for this group, CHARMOIS is a CROUS residence that if available, can be found in the link above
         "recipients": [
             {"whatsapp_number": "", "whatsapp_api_key": "", "signal_id": "", "signal_api_key": ""},
             {"whatsapp_number": "", "whatsapp_api_key": "", "signal_id": "", "signal_api_key": ""},
