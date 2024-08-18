@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Path to the Python script
-SCRIPT="/Path/to/your/script/ResCheckAll.py" 
+SCRIPT="$(pwd)/ResCheckAll.py" 
 
 # Path to the Log file
-LOGFILE="/Path/to/your/script/logfile.log" 
+LOGFILE="$(pwd)/logfile.log" 
 
 # Function to start the script
 start_script() {
